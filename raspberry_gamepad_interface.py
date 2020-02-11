@@ -21,6 +21,8 @@ class PS4Interface(object):
 		self.controller.init()
 		self.keyboard = Controller()
 		
+	
+	def listener(self):
 		while True: 
 			for e in pygame.event.get():
 				if e.type == pygame.JOYHATMOTION:
@@ -73,4 +75,4 @@ pass
 
 if __name__ == "__main__":
 	con = PS4Interface()
-	con.listen()
+	con.listener()
