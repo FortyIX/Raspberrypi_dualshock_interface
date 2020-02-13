@@ -12,7 +12,7 @@ It is recommonded to run it within a independent environment, [conda](https://co
 and install dependencies into your environment 
 
 ## Documentation 
-- Receivin joystick input ==> [this link](https://www.pygame.org/docs/ref/joystick.html?highlight=joystick)
+- Receiving joystick input ==> [this link](https://www.pygame.org/docs/ref/joystick.html?highlight=joystick)
 - Simulate keyboard input ==> [this link](https://pypi.org/project/pynput/)
 
 ## Usage 
